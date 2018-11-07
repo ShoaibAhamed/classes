@@ -1,0 +1,130 @@
+/*                  Creating  page layout               */
+
+body {
+    background-color: #131111;
+    margin-right: 40px;
+    margin-left: 30px;
+    
+}
+
+.navleft {
+    grid-area: navleft;   
+}
+
+.navmain {
+    grid-area: navmain; 
+}
+
+.navright {
+    grid-area: navright;    
+}
+
+.maincontenta {
+    grid-area: maincontenta;
+}
+
+.maincontentb {
+    grid-area: maincontentb;    
+}
+
+.maincontentc {
+    grid-area: maincontentc;    
+}
+
+.maincontentd {
+    grid-area: maincontentd;   
+}
+
+.maincontente {
+    grid-area: maincontente;    
+}
+
+.maincontentf {
+    grid-area: maincontentf;    
+}
+
+.maincontentg {
+    grid-area: maincontentg;    
+}
+
+.maincontenth {
+    grid-area: maincontenth;   
+}
+
+.maincontenti {
+    grid-area: maincontenti;
+}
+
+.maincontentj {
+    grid-area: maincontentj;    
+}
+
+.maincontentk {
+    grid-area: maincontentk;
+    background-color: darkred;
+}
+
+.maincontentl {
+    grid-area: maincontentl;
+    background-color: darkgoldenrod;
+}
+
+.maincontentm {
+    grid-area: maincontentm;
+    background-color: aqua;
+}
+
+.maincontentn {
+    grid-area: maincontentn;
+    background-color: greenyellow;
+}
+
+.maincontento {
+    grid-area: maincontento;
+    background-color: orangered;
+}
+
+.maincontentp {
+    grid-area: maincontentp;
+    background-color: mediumorchid;
+}
+
+.maincontentq {
+    grid-area: maincontentq;
+    background-color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 70px 450px 260px 150px 325px 540px 270px 545px 645px 540px 350px 210px;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-areas: "navleft         navmain         navmain        navmain           navmain         navright    " 
+                         "maincontenta    maincontenta    maincontenta   maincontenta      maincontenta    maincontenta" 
+                         "maincontentb    maincontentb    maincontentc   maincontentc      maincontentd    maincontentd" 
+                         "maincontente    maincontente    maincontente   maincontente      maincontente    maincontente"    
+                         "maincontentf    maincontentf    maincontentf   maincontentf      maincontentg    maincontentg"    
+                         "maincontenth    maincontenth    maincontenth   maincontenth      maincontenth    maincontenth" 
+                         "maincontenti    maincontenti    maincontentj   maincontentj      maincontentj    maincontentj"
+                         "maincontentk    maincontentk    maincontentk   maincontentk      maincontentk    maincontentk"
+                         "maincontentl    maincontentl    maincontentl   maincontentl      maincontentl    maincontentl"
+                         "maincontentm    maincontentm    maincontentm   maincontentm      maincontentm    maincontentm"
+                         "maincontentn    maincontentn    maincontento   maincontento      maincontentp    maincontentp"
+                         "maincontentq    maincontentq    maincontentq   maincontentq      maincontentq    maincontentq";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

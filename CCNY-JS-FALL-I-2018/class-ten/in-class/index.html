@@ -1,0 +1,32 @@
+
+<input id = "demo"></input><br>
+<button onClick = myFunction()> submit </button>
+<p id = "show"></p>
+
+ 
+<script>
+
+function myFunction(){
+	var m = document.getElementById('demo').value;
+	document.getElementById('show').innerHTML = m;
+
+}
+
+// //global scope
+//  var x = 5;
+//  function test(){
+//  	return (x+3);
+// }
+//  console.log(x);
+//  console.log(test());
+
+//  //local scope
+
+//  function anotherTest(){
+//  	var y = 6;
+//  	return (y+3);
+//  }
+//  // console.log("This is coming from the second function "+ y);
+//  console.log("This is coming from the second function "+ anotherTest());
+
+</script>

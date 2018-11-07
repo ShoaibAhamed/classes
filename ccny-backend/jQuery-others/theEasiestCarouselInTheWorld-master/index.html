@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title> Beautiful New York</title>
+
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+
+			<script>
+
+    			$("#slideshow > div:gt(0)").hide();
+
+				setInterval(function() { 
+  				$('#slideshow > div:first')
+    			
+    			.fadeIn(2000)
+
+    			.next()
+
+    			.fadeOut(1000)
+
+    			.end()
+
+    			.appendTo('#slideshow');
+
+				},3000);
+
+
+  			</script>
+
+
+  			<style>
+
+  				#slideshow > div{
+
+  					position:absolute;
+  					top: 15%; 
+    				left: 0px; 
+    				right: 0px; 
+    				bottom: 0px; 
+
+
+
+
+  				}
+
+
+  			</style>
+
+
+
+	</head>
+
+
+	<body>
+
+		<div id = "slideshow">
+
+			<div>
+
+				<img src ="image/pic1.jpg" width ="100%" height ="auto">
+
+
+			</div>
+
+			<div>
+
+				<img src ="image/pic2.jpg" width ="100%" height ="auto">
+
+
+
+
+			</div>
+
+			<div>
+
+				<img src ="image/pic3.jpg" width ="100%" height ="auto">
+
+
+			</div>
+
+
+			
+
+
+
+
+		</div>
+
+		
+
+
+
+	</body>
+
+
+
+</html>

@@ -1,0 +1,39 @@
+<style>
+underline{
+border-bottom:1px solid;
+border-bottom-color:red;	
+}
+</style>
+<input id="string"></input>
+<button onclick="duplicate()">Submit</button>
+<p id="result"></p>
+<script>
+function duplicate(){
+	var String=document.getElementById("string").value;
+	String=String+" ";	
+	var array_data=[];
+	var word=0;
+	var chars=0; 
+	var check=[];
+	var counter=0;
+	for(var i=0; i<=String.length;i++){
+			if(String.charAt(i)===" "){
+			array_data[word]=String.slice(chars,i);
+			word++;
+			chars=i;			
+		}
+	}
+	for(var i=0; i<array_data.length;i++){
+			for(var k=i+1;k<array_data.length;k++){
+			if( array_data[i].trim()===array_data[k].trim()){						
+				 check[counter]="<underline>"+array_data[k]+"</underline>";
+				array_data[i]=check[counter];
+				counter++;					
+		}
+		
+	}
+			 
+}
+		document.getElementById("result").innerHTML=array_data;
+};
+

@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<style>
+		#user {
+			width:500px;	
+		}
+		#show{
+		}
+		</style>
+	</head>
+	<body>
+
+		<input id = "user"></input><br>
+		<button onClick = "display()"> submit </button>
+		<h1 id = "show"></h1>
+
+		<script>
+
+		var x;
+
+		function display(){
+			x = document.getElementById('user').value;
+			document.getElementById('show').innerHTML = x;
+		}
+
+		</script>
+
+	</body>
+</html>

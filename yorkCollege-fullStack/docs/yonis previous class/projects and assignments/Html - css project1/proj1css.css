@@ -1,0 +1,56 @@
+ /* using the universal selector - selects all elements to change font type, size, family... */
+ *{
+
+ 	font-family: Calibri;
+	font-size: 15px;
+	font-style: normal;
+
+ }
+ 
+/*Displaying a background image behind my resume */
+body {
+
+	background-image: url("ResumeImage.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+/*Referencing Id tag called MyInfo in my html using the # sybmbol followed by id tag name */
+#MyInfo{
+
+	text-align:center;
+	padding-top: 50px; 
+	line-height: 10%;
+	
+}
+/*Referencing Id tag called MainStructure in my html using the # sybmbol followed by id tag name */
+#MainStructure{
+
+	margin-left: 150px;
+	margin-right:150px;
+
+}
+/*referencing right class using . */
+.Right {
+
+		float: right;
+
+}
+/*referencing AlignBar class using . */
+.AlignBar{	
+  
+    margin-top: -1.0em  
+
+  }
+
+/* Styling Links - Please note the following must be used in a sepcefic error */
+a {
+	color: green;
+    text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+}

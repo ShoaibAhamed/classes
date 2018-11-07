@@ -1,0 +1,45 @@
+    
+
+1. go to GitHub account and create a GitHub repo
+
+2. from the GitHub repo, copy repo's HTTP link
+
+3. go to terminal, the directory where you want to set your local git repo, write - git clone then-paste-the-HTTP-link
+
+4. you can see the folder downloaded in your desktop.
+
+5. create a file in that local git repo.
+
+6. git status to see the git repo
+
+7. git add the file name or "git add ." for all files
+
+8. Once added, in the terminal write git commit -m "what are you changing"
+
+9. Write git push and then go to your GitHub remote repo to refresh and see the changes. 
+
+10. Add some more points in the text file. 
+
+11. git status shows red lines. 
+
+12. write "git add ." to add the changes
+
+13. write "git commit -m "added some more points"
+
+14. git status
+
+15. git push
+
+16. refresh remote git repo
+
+17. go to your remote repo, edit the file by adding one new line and press commit button
+
+18. come back to terminal, write "git pull"
+
+19. It will pull all the changes made in the other hand and your local directory is up to date. 
+
+20. I'm loving git and github. :)
+
+
+
+

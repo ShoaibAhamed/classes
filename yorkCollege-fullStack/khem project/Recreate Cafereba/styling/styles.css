@@ -1,0 +1,188 @@
+/*  Styling the nav bar */
+
+
+.fixednav {
+    position: fixed;
+    position: fixed;
+    top: 0;
+    width: 95%;
+}
+
+.fixednav li {
+
+    float: left;
+
+}
+
+.fixednav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+
+.container {
+    float: left;
+}
+
+
+/*---------------------start of my grid layout-----------------------------------------------*/
+
+.navleft {
+    background-color: #d2232a;
+}
+
+.navmain li, .navright a {
+    float: left;
+}
+
+.navmain ul {
+    list-style-type: none;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 190px;
+
+
+}
+
+.navmain li a {
+
+     display: block;
+     color: #fff;
+     text-align: center;
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-size: 15px;
+     font-family: Gothic_13 W01 Regular, sans-serif;
+     padding-top: 25px;
+     padding-right: 10px;
+
+     
+}
+
+
+.navright a {
+
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 30px 5px;
+    padding-left: 25px;
+
+}
+
+
+/*------------------maincontent styling ---------------*/
+
+.maincontenta {
+    background: url(http://bucket2.cafebabareeba.com/wp-content/uploads/hero-dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.maincontenta h1 {
+
+    font-family: TypekaMix W00 Regular, sans-serif;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.2
+
+}
+
+.maincontentb img {
+    max-width: 100%;
+    padding-top: 25px;
+    
+}
+
+.maincontentc img {
+    max-width: 100%;
+    padding-top: 25px;
+
+}
+
+.maincontentd img {
+    max-width: 100%;
+    padding-top: 25px;
+
+}
+
+.maincontentf {
+    background-color: #d2232a;
+    background-image: url(http://bucket2.cafebabareeba.com/wp-content/uploads/bull.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 300px 200px;
+}
+
+.maincontentg {
+    background: url(http://bucket2.cafebabareeba.com/wp-content/uploads/pork.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.maincontenth {
+    background: url(http://bucket2.cafebabareeba.com/wp-content/uploads/cocktails.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.maincontenti {
+    background: url(http://bucket2.cafebabareeba.com/wp-content/uploads/cafe_ba_ba_reeba_brunch-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.maincontentj {
+    background-color: #d2232a;
+    background-image: url(http://bucket2.cafebabareeba.com/wp-content/uploads/bull-charging-r.png);
+    background-repeat: no-repeat;
+}
+
+.maincontentk {
+    background: url(http://bucket2.cafebabareeba.com/wp-content/uploads/parties-dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.maincontentl {
+    background-color: #d2232a;
+}
+
+.maincontentm {
+    background: url(http://bucket2.cafebabareeba.com/wp-content/uploads/bread-dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.maincontentn {
+    background: url(http://bucket2.cafebabareeba.com/wp-content/uploads/paella-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.maincontento {
+    background: #312b2c;
+}
+
+.maincontentp {
+
+
+
+
+}

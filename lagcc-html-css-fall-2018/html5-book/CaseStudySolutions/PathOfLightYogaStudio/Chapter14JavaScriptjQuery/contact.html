@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Path of Light Yoga Studio :: Contact</title>
+<meta charset="utf-8">
+<link href="yoga.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--[if lt IE 9]>
+<script src=”http://html5shim.googlecode.com/svn/trunk/html5.js”>
+</script>
+<![endif]-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.js"></script>
+<script>
+$(document).ready(function(){
+ $('form').validate();
+ });
+</script>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>Path of Light Yoga Studio</h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="classes.html">Classes</a></li>
+    <li><a href="schedule.html">Schedule</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<main>
+<h2>Contact Path of Light Yoga Studio</h2>
+<p>Required information is marked with an asterisk (*).</p>
+<form method="post" action="http://webdevbasics.net/scripts/yoga.php">
+<label for="myName"> Name: </label><input type="text" id="myName" name="myName" >
+<label for="myEmail">* E-mail: </label><input type="email" id="myEmail" name="myEmail" class="required email" >
+<label for="myComments">Comments: </label><textarea id="myComments" name="myComments" rows="2" cols="20"></textarea>
+<input type="submit" value="Send Now" id="mySubmit">
+</form>
+</main>
+<footer>
+Copyright &copy; 2016 Path of Light Yoga Studio<br>
+<a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+Bootstrap: Gallery Exercise
+The goal of this exercise is to use the CSS components 
+you've learned so far from Bootstrap to create a gallery of your work or hobbies on your website.
+
+
+Part 1: Setup
+Make a copy of your index.html from the previous exercise.
+Name it gallery.html 
+and save it in the same folder as your index.html.
+Delete the main content from gallery.html, but keep the header, 
+navigation, and footer if you have it.
+Paste this starter code into your gallery.html instead. 
+You will not use that exact content, but use the HTML structure as a general template for your own content.
+
+Part 2: Create gallery!
+Create cards
+Use the card content type classes such as .card-block and .card-text to create your cards.
+
+Use the .card-column class to organize your cards like a Pinterest board.
+Bonus
+Organize your cards into different sections.
+
+Add links to your cards that open in a new tab; include the attribute target="_blank".

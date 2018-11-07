@@ -1,0 +1,43 @@
+
+<!-- how to greet our visitor according to time in our html webpage -->
+
+<style>
+
+h1{border:3px solid red;
+	display: inline-block;
+	background-color: yellow;
+	margin-left: 70%; 	
+	padding : 5px;
+}
+
+
+</style>
+
+<h1 id = "hello"></h1>
+
+<script>
+
+var today = new Date;
+
+
+var hourNow = today.getHours();
+// document.write("time now " + hourNow);
+
+document.getElementById('hello').innerHTML = "";
+
+if ( hourNow > 18){
+	// document.write("good evening!");
+	document.getElementById('hello').innerHTML = "good evening!";
+} else if (hourNow > 11){
+	// document.write("good afternoon!");
+	document.getElementById('hello').innerHTML = "good afternoon! ";
+} else if (hourNow > 0){
+	// document.write("good morning!");
+	document.getElementById('hello').innerHTML = "good morning !";
+} else {
+document.getElementById('hello').innerHTML = "welcome !";
+}
+
+
+
+</script>
